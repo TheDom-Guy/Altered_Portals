@@ -1,0 +1,15 @@
+{
+  "item.alteredportals.alter_tail": "Ogon Alter",
+  "item.alteredportals.alter_tail.blockage_error": "Na drodze stoi nieprzejezdny blok",
+  "item.alteredportals.alter_tail.distance_error": "Za daleko aby wstawić bramę",
+  "item.alteredportals.alter_tail.start_error": "Nieważny początek",
+
+  "advancements.adventure.get_alter_tail.title": "Brama Dla Nieproszonych Gości",
+  "advancements.adventure.get_alter_tail.description": "Zdobądź ogon Alter",
+
+  "sounds.alteredportals.alter_tail_use": "Ogon Alter strzelił",
+  "sounds.alteredportals.alter_tail_fail": "Ogon Alter nie mógł strzelić",
+  "sounds.alteredportals.void_passage_open": "Brama odchłani się odwiera",
+  "sounds.alteredportals.void_passage_close": "Brama odchłani się zamyka",
+  "sounds.alteredportals.void_passage_phase": "Brama odchłani zostaje użyta"
+}

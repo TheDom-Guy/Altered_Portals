@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "alter_tail": {
+      "conditions": {
+        "items": [
+          {
+            "items": "alteredportals:alter_tail"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.get_alter_tail.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "alteredportals:alter_tail"
+    },
+    "title": {
+      "translate": "advancements.adventure.get_alter_tail.title"
+    }
+  },
+  "requirements": [
+    [
+      "alter_tail"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,15 @@
+{
+  "item.alteredportals.alter_tail": "alter's tail",
+  "item.alteredportals.alter_tail.blockage_error": "cant-go-thru-able blok found!!!1",
+  "item.alteredportals.alter_tail.distance_error": "portl iz tu lazy to go furfer",
+  "item.alteredportals.alter_tail.start_error": "bad start :(",
+
+  "advancements.adventure.get_alter_tail.title": "Wall hol 4 bad kittehz",
+  "advancements.adventure.get_alter_tail.description": "steel alter's tail. she doznt need it",
+
+  "sounds.alteredportals.alter_tail_use": "Alter's tail gos pew pew",
+  "sounds.alteredportals.alter_tail_fail": "Alter's tail dosnt work",
+  "sounds.alteredportals.void_passage_open": "Void dor openz",
+  "sounds.alteredportals.void_passage_close": "Void dor clozs",
+  "sounds.alteredportals.void_passage_phase": "Void dor waz used"
+}

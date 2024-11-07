@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "alteredportals:item/alter_tail_2d"
+  }
+}

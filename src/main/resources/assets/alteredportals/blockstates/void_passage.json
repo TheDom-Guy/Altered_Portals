@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "facing=north": {"model": "alteredportals:block/void_passage"},
+    "facing=east": {"model": "alteredportals:block/void_passage", "y":  90},
+    "facing=south": {"model": "alteredportals:block/void_passage", "y":  180},
+    "facing=west": {"model": "alteredportals:block/void_passage", "y":  270},
+    "facing=up": {"model": "alteredportals:block/void_passage", "x":  -90},
+    "facing=down,string_connected=false": {"model": "alteredportals:block/void_passage", "x":  90},
+    "facing=down,string_connected=true": {"model": "alteredportals:block/void_passage_with_string", "x":  90}
+  }
+}

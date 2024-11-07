@@ -1,0 +1,32 @@
+{
+  "alter_tail_use": {
+    "subtitle": "sounds.alteredportals.alter_tail_use",
+    "sounds": [
+      "alteredportals:alter_tail_use"
+    ]
+  },
+  "alter_tail_fail": {
+    "subtitle": "sounds.alteredportals.alter_tail_fail",
+    "sounds": [
+      "alteredportals:alter_tail_fail"
+    ]
+  },
+  "void_passage_open": {
+    "subtitle": "sounds.alteredportals.void_passage_open",
+    "sounds": [
+      "alteredportals:void_passage_open"
+    ]
+  },
+  "void_passage_close": {
+    "subtitle": "sounds.alteredportals.void_passage_close",
+    "sounds": [
+      "alteredportals:void_passage_close"
+    ]
+  },
+  "void_passage_phase": {
+    "subtitle": "sounds.alteredportals.void_passage_phase",
+    "sounds": [
+      "alteredportals:void_passage_phase"
+    ]
+  }
+}

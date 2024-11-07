@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "reversed=false": {"model": "alteredportals:block/void_string"},
+    "reversed=true": {"model": "alteredportals:block/void_string_reversed"}
+  }
+}

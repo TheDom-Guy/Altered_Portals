@@ -1,0 +1,15 @@
+{
+  "item.alteredportals.alter_tail": "Alter's Tail",
+  "item.alteredportals.alter_tail.blockage_error": "An unpassable block is in the way",
+  "item.alteredportals.alter_tail.distance_error": "Too far to place portal",
+  "item.alteredportals.alter_tail.start_error": "Invalid start",
+
+  "advancements.adventure.get_alter_tail.title": "A Gate For Any Crashers",
+  "advancements.adventure.get_alter_tail.description": "Obtain Alter's tail",
+
+  "sounds.alteredportals.alter_tail_use": "Alter's tail fires",
+  "sounds.alteredportals.alter_tail_fail": "Alter's tail fails",
+  "sounds.alteredportals.void_passage_open": "Void passage opens",
+  "sounds.alteredportals.void_passage_close": "Void passage closes",
+  "sounds.alteredportals.void_passage_phase": "Void passage used"
+}

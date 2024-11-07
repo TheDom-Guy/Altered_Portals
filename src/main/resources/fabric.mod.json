@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "alteredportals",
+	"version": "${version}",
+	"name": "Altered Portals",
+	"description": "A mod that adds Alter's Void Passage from Apex Legends.",
+	"authors": [
+		"The Dom-Guy"
+	],
+	"contact": {
+
+	},
+	"license": "MIT",
+	"icon": "assets/alteredportals/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.thedomguy.alteredportals.AlteredPortals"
+		],
+		"client": [
+			"com.thedomguy.alteredportals.AlteredPortalsClient"
+		],
+		"fabric-datagen": [
+			"com.thedomguy.alteredportals.AlteredPortalsDataGenerator"
+		]
+	},
+	"mixins": [
+		"alteredportals.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
