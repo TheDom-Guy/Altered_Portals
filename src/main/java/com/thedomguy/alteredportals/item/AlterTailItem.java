@@ -57,6 +57,11 @@ public class AlterTailItem extends Item implements GeoItem {
                     if (state.isIn(ModTags.Blocks.VOID_PASSAGE_BLOCKING)) {
                         player.sendMessage(Text.translatable("item.alteredportals.alter_tail.blockage_error"), true);
                         context.getWorld().playSound(null, context.getPlayer().getBlockPos(), ModSounds.ALTER_TAIL_FAIL, SoundCategory.PLAYERS);
+
+                        if (context.getWorld() instanceof ServerWorld serverWorld) {
+                            triggerAnim(player, GeoItem.getOrAssignId(player.getStackInHand(context.getHand()), serverWorld), "alter_tail_controller", "tail_fail");
+                        }
+
                         foundPos = true;
                         break;
                     }
@@ -89,10 +94,18 @@ public class AlterTailItem extends Item implements GeoItem {
                 if(!foundPos) {
                     player.sendMessage(Text.translatable("item.alteredportals.alter_tail.distance_error"), true);
                     context.getWorld().playSound(null, context.getPlayer().getBlockPos(), ModSounds.ALTER_TAIL_FAIL, SoundCategory.PLAYERS);
+
+                    if (context.getWorld() instanceof ServerWorld serverWorld) {
+                        triggerAnim(player, GeoItem.getOrAssignId(player.getStackInHand(context.getHand()), serverWorld), "alter_tail_controller", "tail_fail");
+                    }
                 }
             } else {
                 context.getPlayer().sendMessage(Text.translatable("item.alteredportals.alter_tail.start_error"), true);
                 context.getWorld().playSound(null, context.getPlayer().getBlockPos(), ModSounds.ALTER_TAIL_FAIL, SoundCategory.PLAYERS);
+
+                if (context.getWorld() instanceof ServerWorld serverWorld) {
+                    triggerAnim(player, GeoItem.getOrAssignId(player.getStackInHand(context.getHand()), serverWorld), "alter_tail_controller", "tail_fail");
+                }
             }
         }
 
@@ -107,7 +120,9 @@ public class AlterTailItem extends Item implements GeoItem {
     @Override
     public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
         controllerRegistrar.add(new AnimationController<>(this, "alter_tail_controller", 0, state -> PlayState.CONTINUE)
-                .triggerableAnim("fire_portal", RawAnimation.begin().thenPlay("Fire Portal")));
+                .triggerableAnim("fire_portal", RawAnimation.begin().thenPlay("Fire Portal"))
+                .triggerableAnim("tail_fail", RawAnimation.begin().thenPlay("Tail Fail"))
+        );
     }
 
     @Override
