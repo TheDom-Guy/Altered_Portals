@@ -4,7 +4,8 @@
 	"texture_size": [31, 31],
 	"textures": {
 		"1": "alteredportals:block/void_passage_idle",
-		"2": "alteredportals:block/void_string"
+		"2": "alteredportals:block/void_string",
+		"particle": "#1"
 	},
 	"elements": [
 		{

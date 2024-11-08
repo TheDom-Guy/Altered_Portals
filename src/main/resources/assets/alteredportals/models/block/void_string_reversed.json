@@ -1,7 +1,8 @@
 {
   "ambientocclusion": false,
   "textures": {
-    "1": "alteredportals:block/void_string"
+    "1": "alteredportals:block/void_string",
+    "particle": "#1"
   },
   "elements": [
     {   "from": [ 0.8, 0, 8 ],
