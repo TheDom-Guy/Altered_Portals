@@ -4,6 +4,9 @@
   "item.alteredportals.alter_tail.distance_error": "Too far to place portal",
   "item.alteredportals.alter_tail.start_error": "Invalid start",
 
+  "block.alteredportals.void_passage": "Void Passage",
+  "block.alteredportals.void_string": "Void String",
+
   "advancements.adventure.get_alter_tail.title": "A Gate For Any Crashers",
   "advancements.adventure.get_alter_tail.description": "Obtain Alter's tail",
 
