@@ -1,6 +1,6 @@
-package com.thedomguy.alteredportals.sound;
+package com.github.thedomguy.alteredportals.sound;
 
-import com.thedomguy.alteredportals.AlteredPortals;
+import com.github.thedomguy.alteredportals.AlteredPortals;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.SoundEvent;

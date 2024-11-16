@@ -1,6 +1,6 @@
-package com.thedomguy.alteredportals.item;
+package com.github.thedomguy.alteredportals.item;
 
-import com.thedomguy.alteredportals.AlteredPortals;
+import com.github.thedomguy.alteredportals.AlteredPortals;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.component.DataComponentTypes;

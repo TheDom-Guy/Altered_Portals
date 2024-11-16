@@ -1,7 +1,7 @@
-package com.thedomguy.alteredportals.item.client;
+package com.github.thedomguy.alteredportals.item.client;
 
-import com.thedomguy.alteredportals.AlteredPortals;
-import com.thedomguy.alteredportals.item.AlterTailItem;
+import com.github.thedomguy.alteredportals.AlteredPortals;
+import com.github.thedomguy.alteredportals.item.AlterTailItem;
 import net.minecraft.util.Identifier;
 import software.bernie.geckolib.model.GeoModel;
 

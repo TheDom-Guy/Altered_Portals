@@ -1,10 +1,10 @@
-package com.thedomguy.alteredportals.block;
+package com.github.thedomguy.alteredportals.block;
 
-import com.thedomguy.alteredportals.sound.ModSounds;
-import com.thedomguy.alteredportals.util.CustomPortalCooldownData;
-import com.thedomguy.alteredportals.util.EntityDataSaver;
-import com.thedomguy.alteredportals.util.ModProperties;
-import com.thedomguy.alteredportals.util.ModTags;
+import com.github.thedomguy.alteredportals.sound.ModSounds;
+import com.github.thedomguy.alteredportals.util.CustomPortalCooldownData;
+import com.github.thedomguy.alteredportals.util.EntityDataSaver;
+import com.github.thedomguy.alteredportals.util.ModProperties;
+import com.github.thedomguy.alteredportals.util.ModTags;
 import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;

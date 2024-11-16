@@ -1,4 +1,4 @@
-package com.thedomguy.alteredportals.util;
+package com.github.thedomguy.alteredportals.util;
 
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.IntProperty;

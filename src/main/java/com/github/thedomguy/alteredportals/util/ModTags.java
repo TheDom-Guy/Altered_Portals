@@ -1,6 +1,6 @@
-package com.thedomguy.alteredportals.util;
+package com.github.thedomguy.alteredportals.util;
 
-import com.thedomguy.alteredportals.AlteredPortals;
+import com.github.thedomguy.alteredportals.AlteredPortals;
 import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;

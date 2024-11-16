@@ -15,13 +15,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.thedomguy.alteredportals.AlteredPortals"
+			"com.github.thedomguy.alteredportals.AlteredPortals"
 		],
 		"client": [
-			"com.thedomguy.alteredportals.AlteredPortalsClient"
+			"com.github.thedomguy.alteredportals.AlteredPortalsClient"
 		],
 		"fabric-datagen": [
-			"com.thedomguy.alteredportals.AlteredPortalsDataGenerator"
+			"com.github.thedomguy.alteredportals.AlteredPortalsDataGenerator"
 		]
 	},
 	"mixins": [

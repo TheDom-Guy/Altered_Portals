@@ -1,8 +1,8 @@
-package com.thedomguy.alteredportals;
+package com.github.thedomguy.alteredportals;
 
-import com.thedomguy.alteredportals.block.ModBlocks;
-import com.thedomguy.alteredportals.item.ModItems;
-import com.thedomguy.alteredportals.sound.ModSounds;
+import com.github.thedomguy.alteredportals.block.ModBlocks;
+import com.github.thedomguy.alteredportals.item.ModItems;
+import com.github.thedomguy.alteredportals.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;

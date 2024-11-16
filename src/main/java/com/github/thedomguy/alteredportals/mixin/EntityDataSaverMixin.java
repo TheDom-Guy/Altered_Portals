@@ -1,7 +1,7 @@
-package com.thedomguy.alteredportals.mixin;
+package com.github.thedomguy.alteredportals.mixin;
 
-import com.thedomguy.alteredportals.util.CustomPortalCooldownData;
-import com.thedomguy.alteredportals.util.EntityDataSaver;
+import com.github.thedomguy.alteredportals.util.CustomPortalCooldownData;
+import com.github.thedomguy.alteredportals.util.EntityDataSaver;
 import net.minecraft.entity.Entity;
 import net.minecraft.nbt.NbtCompound;
 import org.spongepowered.asm.mixin.Mixin;

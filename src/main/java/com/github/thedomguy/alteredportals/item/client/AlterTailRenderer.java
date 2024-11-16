@@ -1,6 +1,6 @@
-package com.thedomguy.alteredportals.item.client;
+package com.github.thedomguy.alteredportals.item.client;
 
-import com.thedomguy.alteredportals.item.AlterTailItem;
+import com.github.thedomguy.alteredportals.item.AlterTailItem;
 import software.bernie.geckolib.renderer.GeoItemRenderer;
 
 public class AlterTailRenderer extends GeoItemRenderer<AlterTailItem> {

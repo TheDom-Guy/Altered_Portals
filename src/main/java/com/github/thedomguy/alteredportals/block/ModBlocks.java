@@ -1,6 +1,6 @@
-package com.thedomguy.alteredportals.block;
+package com.github.thedomguy.alteredportals.block;
 
-import com.thedomguy.alteredportals.AlteredPortals;
+import com.github.thedomguy.alteredportals.AlteredPortals;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.piston.PistonBehavior;

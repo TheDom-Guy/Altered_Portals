@@ -1,11 +1,11 @@
-package com.thedomguy.alteredportals.item;
+package com.github.thedomguy.alteredportals.item;
 
-import com.thedomguy.alteredportals.AlteredPortals;
-import com.thedomguy.alteredportals.block.ModBlocks;
-import com.thedomguy.alteredportals.item.client.AlterTailRenderer;
-import com.thedomguy.alteredportals.sound.ModSounds;
-import com.thedomguy.alteredportals.util.ModProperties;
-import com.thedomguy.alteredportals.util.ModTags;
+import com.github.thedomguy.alteredportals.AlteredPortals;
+import com.github.thedomguy.alteredportals.block.ModBlocks;
+import com.github.thedomguy.alteredportals.item.client.AlterTailRenderer;
+import com.github.thedomguy.alteredportals.sound.ModSounds;
+import com.github.thedomguy.alteredportals.util.ModProperties;
+import com.github.thedomguy.alteredportals.util.ModTags;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.render.item.BuiltinModelItemRenderer;
 import net.minecraft.entity.player.PlayerEntity;
