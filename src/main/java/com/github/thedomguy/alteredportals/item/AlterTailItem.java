@@ -37,8 +37,6 @@ public class AlterTailItem extends Item implements GeoItem {
         SingletonGeoAnimatable.registerSyncedAnimatable(this);
     }
 
-
-
     private final AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
 
     @Override
@@ -55,12 +53,7 @@ public class AlterTailItem extends Item implements GeoItem {
                 for(int i = 0; i <= 10; i++) {
                     BlockState state = context.getWorld().getBlockState(positionClicked.add(portalDir.getVector().multiply(-i)));
                     if (state.isIn(ModTags.Blocks.VOID_PASSAGE_BLOCKING)) {
-                        player.sendMessage(Text.translatable("item.alteredportals.alter_tail.blockage_error"), true);
-                        context.getWorld().playSound(null, context.getPlayer().getBlockPos(), ModSounds.ALTER_TAIL_FAIL, SoundCategory.PLAYERS);
-
-                        if (context.getWorld() instanceof ServerWorld serverWorld) {
-                            triggerAnim(player, GeoItem.getOrAssignId(player.getStackInHand(context.getHand()), serverWorld), "alter_tail_controller", "tail_fail");
-                        }
+                        tailFail(player, context, "item.alteredportals.alter_tail.blockage_error");
 
                         foundPos = true;
                         break;
@@ -92,24 +85,23 @@ public class AlterTailItem extends Item implements GeoItem {
                 }
 
                 if(!foundPos) {
-                    player.sendMessage(Text.translatable("item.alteredportals.alter_tail.distance_error"), true);
-                    context.getWorld().playSound(null, context.getPlayer().getBlockPos(), ModSounds.ALTER_TAIL_FAIL, SoundCategory.PLAYERS);
-
-                    if (context.getWorld() instanceof ServerWorld serverWorld) {
-                        triggerAnim(player, GeoItem.getOrAssignId(player.getStackInHand(context.getHand()), serverWorld), "alter_tail_controller", "tail_fail");
-                    }
+                    tailFail(player, context, "item.alteredportals.alter_tail.distance_error");
                 }
             } else {
-                context.getPlayer().sendMessage(Text.translatable("item.alteredportals.alter_tail.start_error"), true);
-                context.getWorld().playSound(null, context.getPlayer().getBlockPos(), ModSounds.ALTER_TAIL_FAIL, SoundCategory.PLAYERS);
-
-                if (context.getWorld() instanceof ServerWorld serverWorld) {
-                    triggerAnim(player, GeoItem.getOrAssignId(player.getStackInHand(context.getHand()), serverWorld), "alter_tail_controller", "tail_fail");
-                }
+                tailFail(player, context, "item.alteredportals.alter_tail.start_error");
             }
         }
 
         return ActionResult.CONSUME;
+    }
+
+    private void tailFail(PlayerEntity player, ItemUsageContext context, String errorKey) {
+        player.sendMessage(Text.translatable(errorKey), true);
+        context.getWorld().playSound(null, context.getPlayer().getBlockPos(), ModSounds.ALTER_TAIL_FAIL, SoundCategory.PLAYERS);
+
+        if (context.getWorld() instanceof ServerWorld serverWorld) {
+            triggerAnim(player, GeoItem.getOrAssignId(player.getStackInHand(context.getHand()), serverWorld), "alter_tail_controller", "tail_fail");
+        }
     }
 
     @Override

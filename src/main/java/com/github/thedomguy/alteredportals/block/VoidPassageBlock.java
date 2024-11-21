@@ -15,8 +15,6 @@ import net.minecraft.state.property.Properties;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
-import net.minecraft.util.shape.VoxelShape;
-import net.minecraft.world.BlockView;
 import net.minecraft.world.TeleportTarget;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
@@ -44,7 +42,7 @@ public class VoidPassageBlock extends Block implements Portal{
             boolean reverseString = false;
 
             for (int i = 1; i <= 10; i++) {
-                BlockPos targetPos = pos.add(Direction.DOWN.getVector().multiply(i));
+                BlockPos targetPos = pos.down(i);
                 BlockState targetState = world.getBlockState(targetPos);
 
                 if (targetState.isIn(ModTags.Blocks.VOID_PASSAGE_REPLACEABLE)) {
@@ -66,16 +64,6 @@ public class VoidPassageBlock extends Block implements Portal{
     protected void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         world.playSound(null, pos, ModSounds.VOID_PASSAGE_CLOSE, SoundCategory.BLOCKS);
         world.setBlockState(pos, Blocks.AIR.getDefaultState());
-    }
-
-    @Override
-    protected VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return Block.createCuboidShape(0,0,0,16,16,16);
-    }
-
-    @Override
-    protected BlockRenderType getRenderType(BlockState state) {
-        return BlockRenderType.MODEL;
     }
 
     @Override

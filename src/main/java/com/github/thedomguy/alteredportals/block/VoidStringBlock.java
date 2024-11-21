@@ -51,11 +51,6 @@ public class VoidStringBlock extends Block implements Portal{
     }
 
     @Override
-    protected BlockRenderType getRenderType(BlockState state) {
-        return BlockRenderType.MODEL;
-    }
-
-    @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(ModProperties.REVERSED);
     }
