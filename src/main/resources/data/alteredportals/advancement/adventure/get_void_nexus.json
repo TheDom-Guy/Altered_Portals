@@ -1,0 +1,33 @@
+{
+  "parent": "alteredportals:adventure/get_alter_tail",
+  "criteria": {
+    "void_nexus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "alteredportals:void_nexus"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.get_void_nexus.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "alteredportals:void_nexus"
+    },
+    "title": {
+      "translate": "advancements.adventure.get_void_nexus.title"
+    }
+  },
+  "requirements": [
+    [
+      "void_nexus"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

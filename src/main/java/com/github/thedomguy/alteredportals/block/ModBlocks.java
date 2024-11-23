@@ -14,6 +14,10 @@ public class ModBlocks {
 
     public static final Block VOID_PASSAGE = registerBlock("void_passage", new VoidPassageBlock(AbstractBlock.Settings.create().noCollision().nonOpaque().strength(-1.0F, 3600000.0F).dropsNothing().pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block VOID_STRING = registerBlock("void_string", new VoidStringBlock(AbstractBlock.Settings.create().noCollision().nonOpaque().strength(-1.0F, 3600000.0F).dropsNothing().pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block VOID_NEXUS = Registry.register(
+            Registries.BLOCK,
+            Identifier.of(AlteredPortals.MOD_ID, "void_nexus"),
+            new VoidNexusBlock(AbstractBlock.Settings.create().strength(5.0F, 6.0F).pistonBehavior(PistonBehavior.BLOCK).nonOpaque()));
 
     //Block Registration
     private static Block registerBlock(String name, Block block) {

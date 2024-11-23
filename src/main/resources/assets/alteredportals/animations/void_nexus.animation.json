@@ -1,0 +1,301 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"Inactive Idle": {
+			"loop": true,
+			"animation_length": 6,
+			"bones": {
+				"floating_panels": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"3.0": {
+							"vector": [0, -180, 0]
+						},
+						"6.0": {
+							"vector": [0, -360, 0]
+						}
+					}
+				}
+			}
+		},
+		"Activate": {
+			"animation_length": 0.5,
+			"bones": {
+				"f_panel": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, -0.17431, -1.99239]
+						}
+					}
+				},
+				"b_panel": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, -0.17431, 1.99239]
+						}
+					}
+				},
+				"l_panel": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [1.99239, -0.17431, 0]
+						}
+					}
+				},
+				"r_panel": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [-1.99239, -0.17431, 0]
+						}
+					}
+				},
+				"floating_panels": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 28, 0]
+						}
+					}
+				},
+				"f_fpanel": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, -3]
+						}
+					}
+				},
+				"b_fpanel": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 3]
+						}
+					}
+				},
+				"l_fpanel": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [3, 0, 0]
+						}
+					}
+				},
+				"r_fpanel": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [-3, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"Deactivate": {
+			"animation_length": 0.5,
+			"bones": {
+				"f_panel": {
+					"position": {
+						"0.0": {
+							"vector": [0, -0.17431, -1.99239]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"b_panel": {
+					"position": {
+						"0.0": {
+							"vector": [0, -0.17431, 1.99239]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"l_panel": {
+					"position": {
+						"0.0": {
+							"vector": [1.99239, -0.17431, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"r_panel": {
+					"position": {
+						"0.0": {
+							"vector": [-1.99239, -0.17431, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"floating_panels": {
+					"position": {
+						"0.0": {
+							"vector": [0, 28, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"f_fpanel": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, -3]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"b_fpanel": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 3]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"l_fpanel": {
+					"position": {
+						"0.0": {
+							"vector": [3, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"r_fpanel": {
+					"position": {
+						"0.0": {
+							"vector": [-3, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"Active Idle": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"f_panel": {
+					"position": {
+						"vector": [0, -0.17431, -1.99239]
+					}
+				},
+				"b_panel": {
+					"position": {
+						"vector": [0, -0.17431, 1.99239]
+					}
+				},
+				"l_panel": {
+					"position": {
+						"vector": [1.99239, -0.17431, 0]
+					}
+				},
+				"r_panel": {
+					"position": {
+						"vector": [-1.99239, -0.17431, 0]
+					}
+				},
+				"floating_panels": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, -180, 0]
+						},
+						"1.5": {
+							"vector": [0, -360, 0]
+						}
+					},
+					"position": {
+						"vector": [0, 28, 0]
+					}
+				},
+				"f_fpanel": {
+					"position": {
+						"vector": [0, 0, -3]
+					}
+				},
+				"b_fpanel": {
+					"position": {
+						"vector": [0, 0, 3]
+					}
+				},
+				"l_fpanel": {
+					"position": {
+						"vector": [3, 0, 0]
+					}
+				},
+				"r_fpanel": {
+					"position": {
+						"vector": [-3, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -3,12 +3,21 @@
   "item.alteredportals.alter_tail.blockage_error": "An unpassable block is in the way",
   "item.alteredportals.alter_tail.distance_error": "Too far to place portal",
   "item.alteredportals.alter_tail.start_error": "Invalid start",
+  "item.alteredportals.banner_card": "Banner Card",
+  "item.alteredportals.banner_card.tooltip.empty_card": "Empty banner",
+  "item.alteredportals.banner_card.tooltip.nexus_card": "Linked to Void Nexus at %1$s %2$s %3$s",
+  "item.alteredportals.banner_card.nexus_set": "Linked banner to void nexus",
+  "item.alteredportals.banner_card.nexus_blocked": "Void nexus is blocked!",
+  "item.alteredportals.banner_card.nexus_destroyed": "Void nexus has been destroyed!",
 
   "block.alteredportals.void_passage": "Void Passage",
   "block.alteredportals.void_string": "Void String",
+  "block.alteredportals.void_nexus": "Void Nexus",
 
   "advancements.adventure.get_alter_tail.title": "A Gate For Any Crashers",
   "advancements.adventure.get_alter_tail.description": "Obtain Alter's tail",
+  "advancements.adventure.get_void_nexus.title": "The Fallback Plan",
+  "advancements.adventure.get_void_nexus.description": "Obtain the void nexus",
 
   "sounds.alteredportals.alter_tail_use": "Alter's tail fires",
   "sounds.alteredportals.alter_tail_fail": "Alter's tail fails",

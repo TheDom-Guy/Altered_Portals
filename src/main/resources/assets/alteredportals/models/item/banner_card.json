@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "alteredportals:item/banner_card"
+  },
+  "overrides": [
+    {
+      "predicate": {"type": 0.1}, "model": "alteredportals:item/nexus_banner_card"
+    }
+  ]
+}

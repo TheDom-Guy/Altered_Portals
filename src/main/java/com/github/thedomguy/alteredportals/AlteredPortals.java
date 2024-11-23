@@ -1,8 +1,10 @@
 package com.github.thedomguy.alteredportals;
 
 import com.github.thedomguy.alteredportals.block.ModBlocks;
+import com.github.thedomguy.alteredportals.block.entity.ModBlockEntities;
 import com.github.thedomguy.alteredportals.item.ModItems;
 import com.github.thedomguy.alteredportals.sound.ModSounds;
+import com.github.thedomguy.alteredportals.util.component.ModComponents;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,5 +20,7 @@ public class AlteredPortals implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModSounds.registerSounds();
+		ModComponents.registerModComponents();
+		ModBlockEntities.registerBlockEntities();
 	}
 }

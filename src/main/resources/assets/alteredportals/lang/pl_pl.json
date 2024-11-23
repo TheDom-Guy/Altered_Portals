@@ -3,12 +3,21 @@
   "item.alteredportals.alter_tail.blockage_error": "Na drodze stoi nieprzejezdny blok",
   "item.alteredportals.alter_tail.distance_error": "Za daleko aby wstawić bramę",
   "item.alteredportals.alter_tail.start_error": "Nieważny początek",
+  "item.alteredportals.banner_card": "Karta Sztandarowa",
+  "item.alteredportals.banner_card.tooltip.empty_card": "Pusty sztandar",
+  "item.alteredportals.banner_card.tooltip.nexus_card": "Połączony z Nexusem Otchłani: %1$s %2$s %3$s",
+  "item.alteredportals.banner_card.nexus_set": "Połączono sztandar z nexusem otchłani",
+  "item.alteredportals.banner_card.nexus_blocked": "Nexus otchłani jest zablokowany!",
+  "item.alteredportals.banner_card.nexus_destroyed": "Nexus otchłani został zniszczony!",
 
   "block.alteredportals.void_passage": "Brama Otchłani",
   "block.alteredportals.void_string": "Sznur Otchłani",
+  "block.alteredportals.void_nexus": "Nexus Otchłani",
 
   "advancements.adventure.get_alter_tail.title": "Brama Dla Nieproszonych Gości",
   "advancements.adventure.get_alter_tail.description": "Zdobądź ogon Alter",
+  "advancements.adventure.get_void_nexus.title": "Wyjście Awaryjne",
+  "advancements.adventure.get_void_nexus.description": "Zdobądź nexus otchłani",
 
   "sounds.alteredportals.alter_tail_use": "Ogon Alter strzelił",
   "sounds.alteredportals.alter_tail_fail": "Ogon Alter nie mógł strzelić",
